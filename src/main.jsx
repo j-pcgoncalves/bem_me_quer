@@ -7,8 +7,8 @@ import {
 
 import Root from './routes/root'
 import './index.css'
-import ErrorPage from './error_page'
-import Home from './home'
+import ErrorPage from './routes/error_page'
+import Home from './routes/home'
 
 const router = createBrowserRouter([
   {
